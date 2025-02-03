@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         List<String> items = Arrays.asList("Java", "Python", "C++", "JavaScript");
+        System.out.println("haha");
         List<Character> charts = new ArrayList<>();
         for (String item : items) {
             for (char ch : item.toCharArray()) {
